@@ -6,7 +6,9 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/main.css">
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+			 crossorigin="anonymous"></script>
     	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/javascript.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
@@ -56,30 +58,14 @@
 			</ul>
 
 			<div id="card_template" class="card" id="art_1">
-				<div class="card-header">
-					<h4 id="art_title" align="left">article title </h4>
+				<div id="header" class="card-header">
+					<!-- <h4 id="art_title" align="left">article title </h4> -->
 					<span id="bookmark_button" class="glyphicon glyphicon-bookmark" style="float: right; size: 20px;" ></span>
 				</div>
-				<div class="card-body">
+				<div id="body" class="card-body">
 				<img id="article_image_holder" src="#" alt="image unavaliable">
 				<article id="article_desc">artcle description</article>
 				</div> 
-		    	<div class="card-footer" style="display: flex;">
-		    		<div id="rating_stars" style="display: inline; width: 50%;">
-		    		<span id="star1" class="glyphicon glyphicon-star-empty"></span>
-		    		<span id="star2" class="glyphicon glyphicon-star-empty"></span>
-		    		<span id="star3" class="glyphicon glyphicon-star-empty"></span>
-		    		<span id="star4" class="glyphicon glyphicon-star-empty"></span>
-		    		<span id="star5" class="glyphicon glyphicon-star-empty"></span>
-		    		</div>
-		    		<ul id="keywords_display_list" style = "list-style:none; display: flex;  width: 50%; align-items: right; margin-right: 0px;" id="keyword_list">
-		    			<li id="keyword1">#</li>
-		    			<li id="keyword2">#</li>
-		    			<li id="keyword3">#</li>
-		    			<li id="keyword4">#</li>
-		    			<li id="keyword5">#</li>
-		    		</ul>
-		    	</div>
 			</div>
 			
 
