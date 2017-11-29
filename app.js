@@ -64,7 +64,7 @@ loadJSON("delhi.json", function (response) {
 console.log("hello");
 
 
-data_ref.on("child_added", snap => {
+data_ref.on("child_changed", snap => {
 
     // Iterate over all records in DB and take the snapshot
     var mStore = snap.val();
