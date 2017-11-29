@@ -8,7 +8,11 @@
 		<link rel="stylesheet" href="css/main.css">
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-    	<script type="text/javascript" src="js/javascript.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     </head>
     	
 </head>
@@ -87,6 +91,22 @@
 			</ul>
 		</aside>
 	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyB0UIvm6-eJpfZONgFTLM4mrN5xCP5Kqw8",
+			authDomain: "iws-project-ee443.firebaseapp.com",
+			databaseURL: "https://iws-project-ee443.firebaseio.com",
+			projectId: "iws-project-ee443",
+			storageBucket: "iws-project-ee443.appspot.com",
+			messagingSenderId: "900560067342"
+		};
+		firebase.initializeApp(config);
+
+	</script>
+	<script src="app.js"></script>
 	
 
 </body>
