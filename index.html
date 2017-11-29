@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Signup_Login</title>
+			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<meta name="viewport" content="width=device-width">
+		<style>
+			form 
+			{
+			border: 3px solid #f1f1f1;
+			}
+			
+			
+			/* Full-width input fields */
+			input[type=text], input[type=password], input[type=email] {
+				width: 200px;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			/* Set a style for all buttons */
+			button 
+			{
+				background-color: #00F;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				cursor: pointer;
+				width: 50%;
+			}
+
+			/* Extra styles for the cancel button */
+			.cancelbtn 
+			{
+				padding: 14px 20px;
+				background-color: #f44336;
+			}
+
+			/* Float cancel and signup buttons and add an equal width */
+			.cancelbtn,.signupbtn 
+			{
+				float: left;
+				width: 200px;
+			}
+
+			/* Add padding to container elements */
+			.container 
+			{
+				padding-left: 100px;
+			}
+
+			/* Clear floats 
+			.clearfix::after 
+			{
+				content: "";
+				clear: both;
+				display: table;
+			}
+			*/
+		</style>
+	</head>
+	
+	<body>
+			<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+		<div style="float:right; padding-right:200px">
+			<h3>Login</h3>
+			<button type="submit" onclick="signIn()" name="login_btn" style="background-color:green; width:250px">Login</button>
+		</div>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyB0UIvm6-eJpfZONgFTLM4mrN5xCP5Kqw8",
+		authDomain: "iws-project-ee443.firebaseapp.com",
+		databaseURL: "https://iws-project-ee443.firebaseio.com",
+		projectId: "iws-project-ee443",
+		storageBucket: "iws-project-ee443.appspot.com",
+		messagingSenderId: "900560067342"
+	};
+	firebase.initializeApp(config);
+
+</script>
+		<script src="app.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
