@@ -15,27 +15,30 @@
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
-    </head>
+		<link href="https://fonts.googleapis.com/css?family=Atomic+Age" rel="stylesheet">
+    
     	
 </head>
 <body>
 	<div class="container">
-		<nav class="navbar navbar-default">
+		<nav id="heading" class="navbar navbar-default">
 				<div class="container-fluid">
 					
-					<h1 id="website_name"><a  href="#" >Articlulate</a></h1>
+					<h1 id="website_name"><a  href="#" >Glued..</a></h1>
 					
-					<div class="search-container" id="search_box" style="float: right;">
-  				   <form action="">
-     				 <input id="search_input_box" type="text" placeholder="Search.." name="search">
-    				  <button id="search_button" type="submit"></button>
-    </form>
-  </div>
+					<form  id="search_box" class="navbar-form" role="search">
+					    <div class="input-group add-on">
+					      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+					      <div class="input-group-btn">
+					        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					      </div>
+					    </div>
+				  </form>
 				</div>
 		</nav>
 		<nav class="col-md-2">
 			<div class="collapse navbar-collapse bs-example-js-navbar-collapse">
-				<ul  class="nav navbar-nav" style = "list-style:none" id="navigation">
+				<ul  class="nav navbar-nav"  id="navigation">
 					<li id="filter_menu" class="dropdown">
 							<a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup = "true" role="button" aria-expanded="false">
 								Filter
@@ -52,20 +55,29 @@
 			</div>
 		</nav>
 		<section id="article_display_section" class="col-md-8">
-			<ul style = "list-style:none" id="article_class">
-				<li id="recommended_class">Recommended</li>
-				<li id="trending_class">Trending</li>
+			<ul  id="article_class">
+				<li id="recommended_class"><button>Recommended</button></li>
+				<li id="trending_class"><button>Trending</button></li>
 			</ul>
 
 			<div id="card_template" class="card" id="art_1">
 				<div id="header" class="card-header">
 					<!-- <h4 id="art_title" align="left">article title </h4> -->
-					<span id="bookmark_button" class="glyphicon glyphicon-bookmark" style="float: right; size: 20px;" ></span>
+					<span id="bookmark_button" class="glyphicon glyphicon-bookmark"  ></span>
 				</div>
 				<div id="body" class="card-body">
 				<img id="article_image_holder" src="#" alt="image unavaliable">
 				<article id="article_desc">artcle description</article>
-				</div> 
+                </div> 
+                <hr>
+		    	<div class="card-footer">
+		    		<div id="rating_stars">
+		    		<span id="star1" class="glyphicon glyphicon-star-empty"></span>
+		    		<span id="star2" class="glyphicon glyphicon-star-empty"></span>
+		    		<span id="star3" class="glyphicon glyphicon-star-empty"></span>
+		    		<span id="star4" class="glyphicon glyphicon-star-empty"></span>
+		    		<span id="star5" class="glyphicon glyphicon-star-empty"></span>
+		    		</div>
 			</div>
 			
 
@@ -90,7 +102,6 @@
 			messagingSenderId: "900560067342"
 		};
 		firebase.initializeApp(config);
-
 	</script>
 	<script src="app.js"></script>
 	
