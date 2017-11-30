@@ -1,6 +1,14 @@
 [
-  {
-    "imageUrl": "https://media.wired.com/photos/59fba5b7bb77eb626a22537a/16:9/w_2400,c_limit/1217-WI-MFSPEE-06_sq.jpg",
-    "title": "WIRED\u2019s biggest stories delivered to your inbox."
-  }
-]  
+    {
+        "title": "WIRED\u2019s biggest stories delivered to your inbox.",
+        "url": "https://media.wired.com/photos/59fba5b7bb77eb626a22537a/16:9/w_2400,c_limit/1217-WI-MFSPEE-06_sq.jpg"
+    },
+    {
+        "title": "Apple MacOS High Sierra Security Flaw Lets Anyone Get Root Access, No Password Required",
+        "url": "https://media.wired.com/photos/5988d5a9504e243e8bfa673e/1:1/w_2400,c_limit/wired-headers2400-B4.png"
+    },
+    {
+        "title":"Lockheed Martin Is Making Laser Cannons for Fighter Jets",
+        "url":"https://media.wired.com/photos/5a1cac5ab6c6d8322f8d2a80/1:1/w_2400,c_limit/Receipts-112295348.jpg"
+    }
+]
