@@ -1,14 +1,14 @@
 [
-  {
-    "title": "WIRED\u2019s biggest stories delivered to your inbox.",
-    "imageUrl": "https:\/\/media.wired.com\/photos\/59fba5b7bb77eb626a22537a\/16:9\/w_2400,c_limit\/1217-WI-MFSPEE-06_sq.jpg"
-  },
-   {
-    "title": "WIRED\u2019s biggest stories delivered to your inbox.",
-    "imageUrl": "https:\/\/media.wired.com\/photos\/59fba5b7bb77eb626a22537a\/16:9\/w_2400,c_limit\/1217-WI-MFSPEE-06_sq.jpg"
-  },
-  {
-    "title": "WIRED\u2019s biggest stories delivered to your inbox.",
-    "imageUrl": "https:\/\/media.wired.com\/photos\/59fba5b7bb77eb626a22537a\/16:9\/w_2400,c_limit\/1217-WI-MFSPEE-06_sq.jpg"
-  }
+    {
+        "title": "Why doesn't Facebook make a cloud computing platform to compete with Amazon, Microsoft, IBM, Oracle and Google?",
+        "description": "If Facebook did compete with them in Cloud, it would lose mostly due to “political” reasons, not technical ones. Amazon, Google, and possibly the “newer” Microsoft are less likely to be suspected by potential customers to not respect users’ privacy."
+    },
+    {
+        "title": "Can Microsoft or Google be sued for having a near monopoly with their OS platforms?",
+        "description": "Sure, I mean if either of them actually had a monopoly on a single OS platform. "
+    },
+    {
+        "title":"Why can’t Microsoft make software of the same quality as Google?",
+        "description":"As an engineer with most of my experience in Android, I’ll speak to mobile first. Android is crushing the mobile space, and Windows Phone is basically dead. You’d think then “Android is better. Google made a better product,” but in reality, I feel it was a lot more a horrible timing decision on Microsoft’s part."
+    }
 ]
